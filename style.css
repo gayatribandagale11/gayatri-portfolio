@@ -153,4 +153,24 @@ transform:translateY(-5px);
 box-shadow:0 0 20px #58d7ff;
 color:#58d7ff;
 }
+
+.project-links{
+    display:flex;
+    gap:10px;
+    margin-top:15px;
+}
+
+.project-links a{
+    text-decoration:none;
+    padding:10px 18px;
+    border-radius:8px;
+    background:#00c3ff;
+    color:white;
+    font-weight:600;
+    transition:.3s;
+}
+
+.project-links a:hover{
+    transform:translateY(-3px);
+}
 </style>
